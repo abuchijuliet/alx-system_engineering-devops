@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -prints %f’\n’
+find . -empty -prints %g'\n'
