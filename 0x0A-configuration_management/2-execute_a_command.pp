@@ -1,5 +1,5 @@
-# create a process named killmenow 
-exec { 'pkill killmenow' :
-path    => '/bin/',
-command => 'pkill killmenow',
+# Create a manifest that terminates a process called killmenow
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
